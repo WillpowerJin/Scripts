@@ -80,7 +80,7 @@ const nowDate = parseInt((new Date().getTime() / 1000).toString());  // 当前�
 const zeroDate = (nowDate - (nowDate % 86400) - 3600 * 8) * 1000;  // 今日零点时间戳
 let productInfo = [], message = '', CookieArr = [], Cookie = '', DeviceID = '';
 
-let MT_PROVINCE = $.getdata('MT_PROVINCE') || '北京市';
+let MT_PROVINCE = $.getdata('MT_PROVINCE') || '北京';
 let MT_CITY = $.getdata('MT_CITY') || '北京市';
 let MT_DISTRICT = $.getdata('MT_DISTRICT') || '';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
